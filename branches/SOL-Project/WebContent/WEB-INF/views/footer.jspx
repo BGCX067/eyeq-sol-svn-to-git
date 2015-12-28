@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<footer xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" id="footer" version="2.0">
+
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+
+	<spring:url value="/" var="home" />
+
+	<dl class="bottom_main">
+		<dd>
+			<a href="http://www.eyeq.co.kr" target="_blank">회사소개</a> <a
+				href="http://dev.eyeq.co.kr:8080/test/bottom_1.html">메뉴1</a> <a
+				href="http://www.eyeq.co.kr">메뉴2</a> <a href="http://www.eyeq.co.kr">메뉴3</a>
+			<a href="http://www.eyeq.co.kr">메뉴4</a>
+		</dd>
+		<dd>
+			<a href="http://www.naver.com/"> <img
+				src="http://dev.eyeq.co.kr:8080/test/images/bottom/korea.png"
+				title="KOREA" width="30" height="30" alt="" />
+			</a> <a href="http://www.nate.com/"> <img
+				src="http://dev.eyeq.co.kr:8080/test/images/bottom/usa.png"
+				title="USA" width="30" height="30" alt="" />
+			</a>
+		</dd>
+		<div id="dim" style="display: none;"></div>
+	</dl>
+</footer>
